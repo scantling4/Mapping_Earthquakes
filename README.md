@@ -1,6 +1,5 @@
 # Mapping_Earthquakes
 
-[Mapping Earthquakes](/Leaflet_Map.png)
 
 ## Overview 
 
