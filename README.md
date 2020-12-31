@@ -1,5 +1,7 @@
 # Mapping_Earthquakes
 
+[Mapping Earthquakes](/Leaflet_Map.png)
+
 ## Overview 
 
 The purpose of this analysis was to first create an earthquake map with two different maps and an earthquake overlay. The second part of the analysis, which was completed as a part of the challenge (earthquake_challenge), consisted of showing the earthquake data in relation to techtonic plates' location, showing all the earthquakes with a magnitude greater than 4.5 on the map, and the creation of a third map. Leaflet.js, MapBox API, and Javascript were utlized to accomplish this. 
