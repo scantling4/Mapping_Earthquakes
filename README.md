@@ -8,35 +8,35 @@ The purpose of this analysis was to first create an earthquake map with two diff
 
 ## Different aspects of Mapping that were explored 
 
-# 1. Map a Single Point 
+### 1. Map a Single Point 
 
 -added a single marker and circle for Los Angeles, CA to the map 
 
-# 2. Map Multiple Points 
+### 2. Map Multiple Points 
 
 -created an array of multiple cities (New York City, Chicago, Houston, Los Angeles, and Phoenix) and looped through them to create a marker for each. Also binded a popup to each marker that shows the city, state, and population size. 
 
-# 3. Map Lines 
+### 3. Map Lines 
 
 -mapped airline route from Los Angeles to San Francisco. Then added two more airport stops: SLC and SEA. 
 
-# 4. Map GeoJSON Point Type
+### 4. Map GeoJSON Point Type
 
 -added a single point on the map using GeoJSON data which is a FeatureCollection object that has properties and geometry for the San Francisco Airport. Used the onEachFunction to add a marker for each feature and to add data from the properties of the JavaScript object. 
 
-# 5. Add Multiple Maps 
+### 5. Add Multiple Maps 
 
 -utilized Leaflet Layers Control to control which styles we'll see on our map. We worked with streets and dark layers. The white box in the top right hand corner of the map allows you to switch between layers. 
 
-# 6. Map GeoJSON LineStrings
+### 6. Map GeoJSON LineStrings
 
 -mapped the nonstop routes from Toronto on two map styles: light and dark. 
 
-# 7. Map GeoJSON Polygons
+### 7. Map GeoJSON Polygons
 
 -mapped polygons around the different neighborhoods in Toronto
 
-# 8. Add Earthquake data from the past 7 days to the map
+### 8. Add Earthquake data from the past 7 days to the map
 
 1. Utilized d3.json to obtain earthquake data
 2. Added styling to the data 
@@ -45,7 +45,7 @@ The purpose of this analysis was to first create an earthquake map with two diff
 4. Added Earthquake Data as an Overlay
 5. Added a legend to the map
 
-# 9. Challenge 
+### 9. Challenge 
  
  1. Added Techtonic Plate Data to the map 
  2. Added Major Earthquake Data
